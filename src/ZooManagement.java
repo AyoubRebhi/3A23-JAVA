@@ -23,14 +23,28 @@ public class ZooManagement {
         myZoo.addAnimal(lion);
         myZoo.addAnimal(chien);
         myZoo.afficherAnimal();
-        System.out.println(myZoo.afficherAnimal());
-        System.out.println("La case de chien est : l"+myZoo.searchAnimal(chien));
+        //System.out.println(myZoo.afficherAnimal());
+        //System.out.println("La case de chien est : l"+myZoo.searchAnimal(chien));
 
-        System.out.println(myZoo.isZooFull());
+        //System.out.println(myZoo.isZooFull());
 
         myZoo2.addAnimal(panda);
         myZoo2.addAnimal(cerf);
-        System.out.println(Zoo.comparerZoo(myZoo,myZoo2));
+        //System.out.println(Zoo.comparerZoo(myZoo,myZoo2));
+
+        //Prosit 3
+        Aquatic a = new Aquatic();
+        Dolphin d = new Dolphin();
+        Penguin p = new Penguin();
+        Terrestrial t = new Terrestrial();
+
+        a.toString();
+        d.toString();
+        p.toString();
+        t.toString();
+
+        a.swim();
+        d.swim();
 
     }
 }
